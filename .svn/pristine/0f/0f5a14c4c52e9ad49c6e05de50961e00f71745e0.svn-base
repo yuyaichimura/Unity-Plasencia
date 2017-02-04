@@ -1,0 +1,497 @@
+﻿using TreeSharpPlus;
+using System.Linq;
+using UnityEngine;
+using RootMotion.FinalIK;
+
+[LibraryIndexAttribute(5)]
+public class _GoToAreaEvent1 : SmartEvent
+{
+
+    SmartCharacter character1;
+    SmartCharacter character2;
+    SmartCharacter character3;
+    SmartCharacter character4;
+    SmartCharacter character5;
+    SmartCharacter character6;
+    SmartCharacter character7;
+
+    SmartWaypoint waypoint;
+    float distance = 1.1f;
+
+    [Name("Go To Area Event")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(2, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(3, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(4, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(5, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(6, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(7, StateName.RoleWaypoint)]
+    public _GoToAreaEvent1(SmartCharacter character1, SmartCharacter character2, SmartCharacter character3, SmartCharacter character4, SmartCharacter character5, SmartCharacter character6, SmartCharacter character7, SmartWaypoint waypoint)
+        : base(character1, character2, character3, character4, character5, character6, character7, waypoint)
+    {
+        this.character1 = character1;
+        this.character2 = character2;
+        this.character3 = character3;
+        this.character4 = character4;
+        this.character5 = character5;
+        this.character6 = character6;
+        this.character7 = character7;
+        this.waypoint = waypoint;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        //return Parallel(waypoint.Approach(character));
+        return new Sequence(
+            new LeafWait(4000),
+            new SequenceParallel(
+                _ReusableActions._WaitAndMoveToArea(character1, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character2, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character3, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character4, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character5, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character6, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character7, waypoint)
+            
+            )
+            );
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _GoToAreaEvent2 : SmartEvent
+{
+
+    SmartCharacter character1;
+    SmartCharacter character2;
+    SmartCharacter character3;
+    SmartCharacter character4;
+    SmartCharacter character5;
+    SmartCharacter character6;
+
+    SmartWaypoint waypoint;
+    float distance = 1.1f;
+
+    [Name("Go To Area Event 6")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(2, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(3, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(4, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(5, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(6, StateName.RoleWaypoint)]
+    public _GoToAreaEvent2(SmartCharacter character1, SmartCharacter character2, SmartCharacter character3, SmartCharacter character4, SmartCharacter character5, SmartCharacter character6, SmartWaypoint waypoint)
+        : base(character1, character2, character3, character4, character5, character6, waypoint)
+    {
+        this.character1 = character1;
+        this.character2 = character2;
+        this.character3 = character3;
+        this.character4 = character4;
+        this.character5 = character5;
+        this.character6 = character6;
+        this.waypoint = waypoint;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        //return Parallel(waypoint.Approach(character));
+        return new Sequence(
+            new LeafWait(2000),
+            new SequenceParallel(
+                _ReusableActions._WaitAndMoveToArea(character1, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character2, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character3, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character4, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character5, waypoint),
+                _ReusableActions._WaitAndMoveToArea(character6, waypoint)
+
+            ),
+            new LeafWait(3000)
+            );
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _GoToEvent : SmartEvent
+{
+    SmartCharacter character;
+
+    SmartWaypoint waypoint;
+
+    [Name("Go To")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleWaypoint)]
+    public _GoToEvent(SmartCharacter character, SmartWaypoint waypoint)
+        : base(character, waypoint)
+    {
+        this.character = character;
+        this.waypoint = waypoint;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        //return new SequenceParallel(waypoint.Approach(character));
+        return new Sequence(character.Node_GoToUpToRadius(Val.V(() => waypoint.transform.position), 1.0f));
+        //return waypoint.Approach(character);
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _GoToAndConverse : SmartEvent
+{
+    SmartCharacter character1;
+    SmartCharacter character2;
+
+
+    [Name("Go To and Converse")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleActor, StateName.IsStanding)]
+    public _GoToAndConverse(SmartCharacter character1, SmartCharacter character2)
+        : base(character1, character2)
+    {
+        this.character1 = character1;
+        this.character2 = character2;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        //return new SequenceParallel(waypoint.Approach(character));
+        return new Sequence(
+            character2.Node_OrientTowards(Val.V(() => character1.transform.position)),
+            character1.Node_GoToUpToRadius(Val.V(() => character2.transform.position), 1.0f),
+            new SequenceParallel(
+                character1.Node_OrientTowards(Val.V(() => character2.transform.position)),
+                character2.Node_OrientTowards(Val.V(() =>character1.transform.position))),
+            new LeafAffordance("Talk", character1, character2));
+        //return waypoint.Approach(character);
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _GoToArea : SmartEvent
+{
+    SmartCharacter character;
+
+    SmartWaypoint waypoint;
+    float distance = 1.1f;
+
+    [Name("Go To Area")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleWaypoint)]
+    public _GoToArea(SmartCharacter character, SmartWaypoint waypoint)
+        : base(character, waypoint)
+    {
+        this.character = character;
+        this.waypoint = waypoint;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        //return Parallel(waypoint.Approach(character));
+        return new Sequence(this.character.Node_GoToUpToRadius(Val.V(() => waypoint.transform.position), distance), this.character.Node_OrientTowards(waypoint.transform.position));
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _Disappear : SmartEvent
+{
+    SmartCharacter character;
+
+    SmartWaypoint waypoint;
+
+    [Name("Disappear")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleWaypoint)]
+    public _Disappear(SmartCharacter character, SmartWaypoint waypoint)
+        : base(character, waypoint)
+    {
+        this.character = character;
+        this.waypoint = waypoint;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        //return Parallel(waypoint.Approach(character));
+        
+        //return waypoint.Approach(character);
+        return new Sequence(new LeafInvoke(() => character.gameObject.SetActive(false)));
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _Reappear : SmartEvent
+{
+    SmartCharacter character;
+
+    SmartWaypoint waypoint;
+
+    [Name("Reappear")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleWaypoint)]
+    public _Reappear(SmartCharacter character, SmartWaypoint waypoint)
+        : base(character, waypoint)
+    {
+        this.character = character;
+        this.waypoint = waypoint;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        //return Parallel(waypoint.Approach(character));
+
+        //return waypoint.Approach(character);
+        return new Sequence(new LeafInvoke(() => character.gameObject.SetActive(true)));
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _EnterHouse: SmartEvent
+{
+    SmartCharacter character;
+
+    SmartWaypoint waypoint;
+
+    [Name("Enter House")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleWaypoint)]
+    public _EnterHouse(SmartCharacter character, SmartWaypoint waypoint)
+        : base(character, waypoint)
+    {
+        this.character = character;
+        this.waypoint = waypoint;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        return new Sequence(this.character.Node_OrientTowards(Val.V(() => this.waypoint.transform.position)),
+            new LeafInvoke(() => character.gameObject.SetActive(false)));
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _ExitHouse : SmartEvent
+{
+    SmartCharacter character;
+
+    SmartWaypoint waypoint;
+
+    [Name("Enter House")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleWaypoint)]
+    public _ExitHouse(SmartCharacter character, SmartWaypoint waypoint)
+        : base(character, waypoint)
+    {
+        this.character = character;
+        this.waypoint = waypoint;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+       // return new Sequence(this.character.Node_OrientTowards(Val.V(() => this.waypoint.transform.position)),
+         //   new LeafInvoke(() => character.gameObject.SetActive(false)));
+        return new LeafInvoke(() => character.gameObject.SetActive(true));
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _GreetGroup: SmartEvent
+{
+    SmartCharacter character;
+
+    SmartWaypoint waypoint;
+
+    [Name("GreetGroup")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleWaypoint)]
+    public _GreetGroup(SmartCharacter character, SmartWaypoint waypoint)
+        : base(character, waypoint)
+    {
+        this.character = character;
+        this.waypoint = waypoint;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        return new Sequence(
+            this.character.Node_OrientTowards(Val.V(() => this.waypoint.transform.position)),
+            new LeafAffordance("UnlockDoorFront", character, null),
+            new LeafInvoke(() => character.gameObject.SetActive(false)));
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _InspectHouse : SmartEvent
+{
+    SmartCharacter inspector;
+    SmartCharacter owner;
+    SmartWaypointArea house;
+
+    [Name("Inspect House")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(2, StateName.RoleWaypoint)]
+    public _InspectHouse(SmartCharacter inspector, SmartCharacter owner, SmartWaypointArea house)
+        : base(inspector, owner, house)
+    {
+        Debug.Log("Constructor");
+
+        this.inspector = inspector;
+        this.owner = owner;
+        this.house = house;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        Debug.Log("Baked");
+
+        return _ReusableActions._InspectHome(inspector, owner, house);
+    }
+}
+
+
+
+
+[LibraryIndexAttribute(5)]
+public class Wander : SmartEvent
+{
+    SmartCharacter character1;
+    SmartCharacter character2;
+    SmartCharacter character3;
+
+    SmartWaypointArea waypointarea;
+
+    [Name("Wander")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(2, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(3, StateName.RoleWaypoint)]
+    public Wander(SmartCharacter character1, SmartCharacter character2, SmartCharacter character3, SmartWaypointArea waypointarea)
+        : base(character1, character2, character3, waypointarea)
+    {
+        this.character1 = character1;
+        this.character2 = character2;
+        this.character3 = character3;
+
+        this.waypointarea = waypointarea;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        return new DecoratorLoop(
+            new SequenceParallel(
+                _ReusableActions._WanderArea(character1, waypointarea),
+                 _ReusableActions._WanderArea(character2, waypointarea),
+                  _ReusableActions._WanderArea(character3, waypointarea)
+                ));
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _Converse : SmartEvent
+{
+    SmartCharacter character1;
+    SmartCharacter character2;
+    
+    [Name("Converse")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleActor, StateName.IsStanding)]
+    public _Converse(SmartCharacter character1, SmartCharacter character2)
+        : base(character1, character2)
+    {
+        this.character1 = character1;
+        this.character2 = character2;
+
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        return new Sequence(
+            character1.Node_GoToUpToRadius(Val.V(() => character2.transform.position), 0.6f),
+                character1.Node_OrientTowards(Val.V(() => character2.transform.position)),
+                character2.Node_OrientTowards(Val.V(() => character1.transform.position)),
+                new DecoratorLoop(new LeafAffordance("Talk", character1, character2))
+            );
+        
+    }
+}
+
+[LibraryIndexAttribute(5)]
+public class _Write : SmartEvent
+{
+    SmartCharacter character;
+
+    [Name("Write")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    public _Write(SmartCharacter character)
+        : base(character)
+    {
+        this.character = character;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        return character.Behavior.Node_BodyAnimation("write", true);
+
+    }
+}
+
+/*
+ [LibraryIndexAttribute(5)]
+public class _InspectAllHomes : SmartEvent
+{
+    SmartCharacter inspector;
+    SmartCharacter character1;
+    SmartCharacter character2;
+    SmartCharacter character3;
+    SmartCharacter character4;
+    SmartCharacter character5;
+    SmartCharacter character6;
+    SmartWaypointArea home1;
+    SmartWaypointArea home2;
+    SmartWaypointArea home3;
+    SmartWaypointArea home4;
+    SmartWaypointArea home5;
+    SmartWaypointArea home6;
+
+
+
+    [Name("Inspect Homes")]
+    [StateRequired(0, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(1, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(2, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(3, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(4, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(5, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(6, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(7, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(8, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(2, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(3, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(4, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(5, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(6, StateName.RoleActor, StateName.IsStanding)]
+    [StateRequired(7, StateName.RoleActor, StateName.IsStanding)]
+    public _InspectAllHomes(SmartCharacter inspector, SmartCharacter character1, SmartCharacter character2, SmartCharacter character3, SmartCharacter character4, SmartCharacter character5, SmartCharacter character6, SmartCharacter character7)
+        : base(inspector, character1, character2, character3, character4, character5, character6, SmartWaypointArea home1)
+    {
+        this.inspector = inspector;
+        this.character1 = character1;
+        this.character2 = character2;
+        this.character3 = character3;
+        this.character4 = character4;
+        this.character5 = character5;
+        this.character6 = character6;
+    }
+
+    public override Node BakeTree(Token token)
+    {
+        return new Sequence(
+            new SelectorParallel(
+                _ReusableActions._InspectHome(inspector, character1),
+
+                )
+
+    }
+}
+ */

@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: ca15369f45ecc2a43ab86c545d70f46b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Chest_Piece
+    100002: //RootNode
+    100004: Dummy1
+    100006: Helmet
+    100008: Left_Fore_Arm
+    100010: Left_Shin_Gaurd
+    100012: Necklace
+    100014: Pants
+    100016: Right_Fore_Arm
+    100018: Right_Shin_Gaurd
+    100020: Ring
+    100022: Robe
+    100024: Shield
+    100026: Shirt
+    100028: Shoulder
+    400000: Chest_Piece
+    400002: //RootNode
+    400004: Dummy1
+    400006: Helmet
+    400008: Left_Fore_Arm
+    400010: Left_Shin_Gaurd
+    400012: Necklace
+    400014: Pants
+    400016: Right_Fore_Arm
+    400018: Right_Shin_Gaurd
+    400020: Ring
+    400022: Robe
+    400024: Shield
+    400026: Shirt
+    400028: Shoulder
+    2300000: Chest_Piece
+    2300002: Dummy1
+    2300004: Helmet
+    2300006: Left_Fore_Arm
+    2300008: Left_Shin_Gaurd
+    2300010: Necklace
+    2300012: Pants
+    2300014: Right_Fore_Arm
+    2300016: Right_Shin_Gaurd
+    2300018: Ring
+    2300020: Robe
+    2300022: Shield
+    2300024: Shirt
+    2300026: Shoulder
+    3300000: Chest_Piece
+    3300002: Dummy1
+    3300004: Helmet
+    3300006: Left_Fore_Arm
+    3300008: Left_Shin_Gaurd
+    3300010: Necklace
+    3300012: Pants
+    3300014: Right_Fore_Arm
+    3300016: Right_Shin_Gaurd
+    3300018: Ring
+    3300020: Robe
+    3300022: Shield
+    3300024: Shirt
+    3300026: Shoulder
+    4300000: Dummy1
+    4300002: Pants
+    4300004: Robe
+    4300006: Ring
+    4300008: Left_Shin_Gaurd
+    4300010: Right_Shin_Gaurd
+    4300012: Left_Fore_Arm
+    4300014: Right_Fore_Arm
+    4300016: Helmet
+    4300018: Shoulder
+    4300020: Chest_Piece
+    4300022: Shirt
+    4300024: Shield
+    4300026: Necklace
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0179999992
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
