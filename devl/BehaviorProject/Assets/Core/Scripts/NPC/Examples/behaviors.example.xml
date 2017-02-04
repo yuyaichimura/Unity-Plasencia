@@ -1,0 +1,290 @@
+<behaviors>
+
+  
+  <!-- Conditions names forbidden keywords - Self - TODO - remove this restriction-->
+  
+  <!--
+  
+    Elements MUST be created in the following order:
+    
+    1) Conditionws / Modifiers
+    2) Events / Contexts
+    
+  -->
+  
+	<conditions>
+    
+    <!-- ON TARGET -->
+    
+    <condition id="IsForeground">
+      <name>IsForeground</name>
+      <type>bool</type>
+      <targetvalue>true</targetvalue>
+			<targeted>true</targeted>
+	  </condition>
+    
+    <condition id="InEvent">
+      <name>InEvent</name>
+      <type>bool</type>
+      <targetvalue>false</targetvalue>
+      <targeted>true</targeted>
+    </condition>
+
+    <!-- This type of conditions will always match if a trait value is greater than the specified threshold, except, that it is marked as <inverted>true</inverted> -->
+    
+    <condition id="Friendliness">
+      <name>Friendliness</name>
+      <type>float</type>
+      <trait>Friendliness</trait> <!-- When mathing traits, the name of the Condition has no relation with the trait, so this needs to be specified-->
+      <targetvalue>0.5</targetvalue>
+      <targeted>true</targeted>
+    </condition>
+
+    <condition id="Rude">
+      <name>Rude</name>
+      <type>float</type>
+      <trait>Rude</trait>
+      <targetvalue>1</targetvalue>
+      <targeted>true</targeted>
+    </condition>
+
+    <condition id="Attractiveness">
+      <name>Attractiveness</name>
+      <type>float</type>
+      <trait>Attractiveness</trait>
+      <targetvalue>1</targetvalue>
+      <targeted>true</targeted>
+    </condition>
+
+    <condition id="Hostility">
+      <name>Hostility</name>
+      <type>float</type>
+      <trait>Hostility</trait>
+      <targetvalue>1</targetvalue>
+      <targeted>true</targeted>
+    </condition>
+
+    <!-- ON SELF -->
+    
+    <condition id="SelfInEvent"> <!-- condition can share the same name although the code will differentiate them based on whether they are targetted or not -->
+      <name>InEvent</name>
+      <type>bool</type>
+      <targetvalue>false</targetvalue>
+    </condition>
+
+    <condition id="Target"> <!-- Is someone looking at me? -->
+      <name>Target</name>
+      <type>NPCController</type>
+      <targeted>true</targeted>
+    </condition>
+
+    <condition id="SelfTestNPC">
+      <name>TestNPC</name>
+      <type>bool</type>
+      <targetvalue>false</targetvalue>
+    </condition>
+
+    <condition id="LowCourage">
+      <name>Courage</name>
+      <type>float</type>
+      <trait>Courage</trait>
+      <invert>true</invert>
+      <targetvalue>1</targetvalue>
+    </condition>
+    
+    <!-- NESTED CONDITIONS -->
+    
+    <!-- Marking a condition as not mandatory might work in certain ways as AND or OR but not really. This will be explained in the documentation -->
+
+    <!-- This one will try to match someone who is the foreground character AND is not in event (we are reusing another condition defined above)-->
+    <condition id="IsForegroundNested">
+      <name>IsForeground</name>
+      <type>bool</type>
+      <targetvalue>true</targetvalue>
+      <targeted>true</targeted>
+      <mandatory>false</mandatory>
+      <condition>InEvent</condition>
+    </condition>
+    
+	</conditions>
+	
+	<modifiers>
+    
+    <modifier name="FriendlinessIncrementer">
+      <trait>Friendliness</trait>
+      <type>increment</type>
+      <value>0.3</value>
+    </modifier>
+
+    
+    <modifier name="RudeIncrementor">
+      <trait>Rude</trait>
+      <type>increment</type>
+      <value>0.2</value>
+      <persistent>false</persistent>
+    </modifier>
+
+    <modifier name="AttractivenessIncrementor">
+      <trait>Attractiveness</trait>
+      <type>increment</type>
+      <value>0.3</value>
+      <persistent>false</persistent>
+    </modifier>
+
+    <modifier name="HostilitySpike">
+      <trait>Hostility</trait>
+      <type>increment</type>
+      <value>2</value>
+      <persistent>false</persistent>
+    </modifier>
+
+    <modifier name="AttractivenessSpike">
+      <trait>Attractiveness</trait>
+      <type>increment</type>
+      <value>2</value>
+      <persistent>false</persistent>
+    </modifier>
+
+    <modifier name="AttractivenessSpikePers">
+      <trait>Attractiveness</trait>
+      <type>increment</type>
+      <value>2</value>
+    </modifier>
+    
+    <modifier name="RudeSpike">
+      <trait>Rude</trait>
+      <type>increment</type>
+      <value>2</value>
+    </modifier>
+
+    <modifier name="FriendlinessSpike">
+      <trait>Friendliness</trait>
+      <type>increment</type>
+      <value>1</value>
+    </modifier>
+
+  </modifiers>
+
+  <contexts>
+
+    <context>
+      <name>HolyPlace</name>
+      <modifier>RudeSpike</modifier>
+      <modifier>AttractivenessSpikePers</modifier>
+    </context>
+
+    <context>
+      <name>Market</name>
+      <modifier>FriendlinessSpike</modifier>
+    </context>
+
+    <context>
+      <name>FountainSquare</name>
+    </context>
+
+    <context>
+      <name>TestContext</name>
+    </context>
+
+  </contexts>
+
+  
+  <events>
+    
+    
+    <!-- General behaviors -->
+    <event>
+      <name>Wander</name>
+      <behavior>Wander</behavior>
+      <priority>Individual</priority>
+      <type>Neutral</type>
+      <condition>SelfInEvent</condition>
+      <condition>SelfTestNPC</condition>
+      <random>50</random> <!-- Upon deliberation, this event has only 50% of chances of being even considered-->
+    </event>
+
+    
+    <event>
+      <name>Reprehend</name>
+      <behavior>Reprehend</behavior>
+      <priority>Social</priority>
+      <type>Targeted</type>
+      <condition>IsForeground</condition>
+      <condition>Rude</condition>
+      <condition>Attractiveness</condition>
+    </event>
+  
+    <event>
+      <name>Converse</name>
+      <behavior>ConverseWith</behavior>
+      <priority>Social</priority>
+      <type>Targeted</type>
+      <condition>SelfInEvent</condition>
+      <condition>Friendliness</condition>
+    </event>
+
+    <event>
+      <name>GetScared</name>
+      <behavior>GetScared</behavior>
+      <priority>SelfPreservation</priority>
+      <type>Global</type>
+      <condition>IsForeground</condition>
+      <condition>Attractiveness</condition>
+      <condition>Hostility</condition>
+    </event>
+
+    <event>
+      <name>GetTerrified</name>
+      <behavior>GetTerrified</behavior>
+      <priority>SelfPreservation</priority>
+      <type>Global</type>
+      <condition>IsForeground</condition>
+      <condition>Attractiveness</condition>
+      <condition>Hostility</condition>
+      <condition>LowCourage</condition>
+    </event>
+    
+    <!-- Defining user controlled behaviors -->
+		<event>
+      <name>USER-GoTo</name>
+      <behavior>GoTo</behavior>
+      <priority>UserCommand</priority>
+      <type>Neutral</type>
+		</event>
+
+    <event>
+      <name>USER-WaveTo</name>
+      <behavior>WaveTo</behavior>
+      <priority>UserCommand</priority>
+      <modifier>FriendlinessIncrementer</modifier>
+      <type>Targeted</type>
+    </event>
+
+    <event>
+      <name>USER-ConverseWith</name>
+      <behavior>ConverseWith</behavior>
+      <priority>UserCommand</priority>
+      <type>Targeted</type>
+    </event>
+   
+    <event>
+      <name>USER-Yawn</name>
+      <behavior>DoGesture</behavior>
+      <priority>UserCommand</priority>
+      <type>Global</type>
+      <modifier>RudeIncrementor</modifier>
+      <modifier>AttractivenessIncrementor</modifier>
+    </event>
+    
+    <event>
+      <name>USER-Roar</name>
+      <behavior>DoGesture</behavior>
+      <priority>UserCommand</priority>
+      <type>Global</type>
+      <modifier>HostilitySpike</modifier>
+      <modifier>AttractivenessSpike</modifier>
+    </event>
+    
+	</events>
+  
+</behaviors>

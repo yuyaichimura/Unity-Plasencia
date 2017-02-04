@@ -1,0 +1,1 @@
+{"Arc":{"Beats":[{"Events":[{"SignatureName":"GoTo","Participants":[1368,11],"ID":8},{"SignatureName":"GoTo","Participants":[1369,13],"ID":9}]}]},"Dependencies":[{"ID":8,"Dependencies":[]},{"ID":9,"Dependencies":[]}],"Crowds":[],"Waypoints":[],"CameraArguments":[]}

@@ -1,0 +1,57 @@
+{
+	"Arc": {
+		"Beats": [{
+			"Events": [{
+				"SignatureName": "Slow Camera Move",
+				"Participants": [80030, 50040],
+				"ID": 63
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [80023],
+				"ID": 64
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Slow Camera Move",
+				"Participants": [80030, 50041],
+				"ID": 66
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [80024],
+				"ID": 67
+			}, {
+				"SignatureName": "Object Enable",
+				"Participants": [70333],
+				"ID": 73
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80013],
+				"ID": 69
+			}, {
+				"SignatureName": "Slow Camera Move",
+				"Participants": [80030, 50042],
+				"ID": 70
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80014],
+				"ID": 71
+			}, {
+				"SignatureName": "Slowest Camera Move 2",
+				"Participants": [80030, 50043, 50042],
+				"ID": 72
+			}, {
+				"SignatureName": "CC Go Near",
+				"Participants": [110, 99999],
+				"ID": 68
+			}]
+		}]
+	},
+	"Dependencies": [],
+	"Crowds": [],
+	"Waypoints": [],
+	"CameraArguments": []
+}

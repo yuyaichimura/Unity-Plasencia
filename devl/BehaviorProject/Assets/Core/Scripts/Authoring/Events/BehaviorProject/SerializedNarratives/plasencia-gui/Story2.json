@@ -1,0 +1,218 @@
+{
+	"Arc": {
+		"Beats": [{
+			"Events": [{
+				"SignatureName": "Go To and Converse",
+				"Participants": [107, 100],
+				"ID": 18
+			}, {
+				"SignatureName": "Go To Area Event",
+				"Participants": [106, 109, 105, 104, 103, 102, 108, 504],
+				"ID": 19
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Go To and Converse",
+				"Participants": [108, 100],
+				"ID": 20
+			}, {
+				"SignatureName": "Go To Area Event 6",
+				"Participants": [106, 109, 105, 104, 103, 102, 502],
+				"ID": 21
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Inspect House",
+				"Participants": [107, 106, 200],
+				"ID": 22
+			}, {
+				"SignatureName": "Go To Area Event 8",
+				"Participants": [101, 100, 108, 109, 105, 104, 103, 102, 508],
+				"ID": 23
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Inspect House",
+				"Participants": [107, 109, 201],
+				"ID": 24
+			}, {
+				"SignatureName": "Go To Area Event 8",
+				"Participants": [101, 100, 108, 106, 105, 104, 103, 102, 509],
+				"ID": 25
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Inspect House",
+				"Participants": [107, 105, 202],
+				"ID": 26
+			}, {
+				"SignatureName": "Go To Area Event 8",
+				"Participants": [101, 100, 108, 109, 106, 104, 103, 102, 510],
+				"ID": 27
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Inspect House",
+				"Participants": [107, 104, 203],
+				"ID": 28
+			}, {
+				"SignatureName": "Go To Area Event 8",
+				"Participants": [101, 100, 108, 109, 105, 106, 103, 102, 511],
+				"ID": 29
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Inspect House",
+				"Participants": [107, 103, 204],
+				"ID": 30
+			}, {
+				"SignatureName": "Go To Area Event 8",
+				"Participants": [101, 100, 108, 109, 105, 104, 106, 102, 512],
+				"ID": 31
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Inspect House",
+				"Participants": [107, 102, 205],
+				"ID": 32
+			}, {
+				"SignatureName": "Go To Area Event 8",
+				"Participants": [101, 100, 108, 109, 105, 104, 103, 106, 513],
+				"ID": 33
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Go To Area Event 10",
+				"Participants": [100, 101, 108, 107, 106, 109, 105, 104, 103, 102, 555],
+				"ID": 34
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Character return to origin",
+				"Participants": [106],
+				"ID": 35
+			},{
+				"SignatureName": "Character return to origin",
+				"Participants": [109],
+				"ID": 36
+			},{
+				"SignatureName": "Character return to origin",
+				"Participants": [105],
+				"ID": 37
+			},{
+				"SignatureName": "Character return to origin",
+				"Participants": [104],
+				"ID": 38
+			},{
+				"SignatureName": "Character return to origin",
+				"Participants": [103],
+				"ID": 39
+			},{
+				"SignatureName": "Character return to origin",
+				"Participants": [102],
+				"ID": 40
+			},{
+				"SignatureName": "Character return to origin",
+				"Participants": [108],
+				"ID": 41
+			},{
+				"SignatureName": "Character return to origin",
+				"Participants": [100],
+				"ID": 42
+			},{
+				"SignatureName": "Character return to origin",
+				"Participants": [101],
+				"ID": 43
+			},{
+				"SignatureName": "Character return to origin",
+				"Participants": [107],
+				"ID": 44
+			}]
+		}]
+	},
+	"Dependencies": [{
+		"ID": 18,
+		"Dependencies": []
+	}, {
+		"ID": 19,
+		"Dependencies": []
+	}, {
+		"ID": 20,
+		"Dependencies": []
+	}, {
+		"ID": 21,
+		"Dependencies": []
+	}, {
+		"ID": 22,
+		"Dependencies": []
+	}, {
+		"ID": 23,
+		"Dependencies": []
+	}, {
+		"ID": 24,
+		"Dependencies": []
+	}, {
+		"ID": 25,
+		"Dependencies": []
+	}, {
+		"ID": 26,
+		"Dependencies": []
+	}, {
+		"ID": 27,
+		"Dependencies": []
+	}, {
+		"ID": 28,
+		"Dependencies": []
+	}, {
+		"ID": 29,
+		"Dependencies": []
+	}, {
+		"ID": 30,
+		"Dependencies": []
+	}, {
+		"ID": 31,
+		"Dependencies": []
+	}, {
+		"ID": 32,
+		"Dependencies": []
+	}, {
+		"ID": 33,
+		"Dependencies": []
+	}, {
+		"ID": 34,
+		"Dependencies": []
+	}, {
+		"ID": 35,
+		"Dependencies": []
+	}, {
+		"ID": 36,
+		"Dependencies": []
+	}, {
+		"ID": 37,
+		"Dependencies": []
+	}, {
+		"ID": 38,
+		"Dependencies": []
+	}, {
+		"ID": 39,
+		"Dependencies": []
+	}, {
+		"ID": 40,
+		"Dependencies": []
+	}, {
+		"ID": 41,
+		"Dependencies": []
+	}, {
+		"ID": 42,
+		"Dependencies": []
+	}, {
+		"ID": 43,
+		"Dependencies": []
+	}, {
+		"ID": 44,
+		"Dependencies": []
+	}],
+	"Crowds": [],
+	"Waypoints": [],
+	"CameraArguments": []
+}

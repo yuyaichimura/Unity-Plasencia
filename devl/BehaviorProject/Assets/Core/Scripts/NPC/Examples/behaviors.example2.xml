@@ -1,0 +1,120 @@
+<behaviors>
+
+<conditions>
+
+  <condition id="SelfTestNPC">
+    <name>TestNPC</name>
+    <type>bool</type>
+    <targetvalue>false</targetvalue>
+  </condition>
+  
+  <condition id="FriendlinessOnTarget">
+    <name>Friendliness</name>
+    <type>float</type>
+    <trait>Friendliness</trait>
+    <!-- When mathing traits, the name of the Condition has no relation with the trait, so this needs to be specified-->
+    <targetvalue>0.5</targetvalue>
+    <targeted>true</targeted>
+  </condition>
+
+  <condition id="SelfInEventAnd">
+    <!-- condition can share the same name although the code will differentiate them based on whether they are targetted or not -->
+    <name>InEvent</name>
+    <type>bool</type>
+    <targetvalue>false</targetvalue>
+    <condition>FriendlinessOnTarget</condition> <!-- this is a targeted event piggybacked onto a non targeted, so the deliberation code should handle this in non-targeted validations-->
+  </condition>
+  
+  
+  <condition id="NotInEvent">
+    <name>InEvent</name>
+    <type>bool</type>
+    <targetvalue>false</targetvalue>
+    <targeted>true</targeted>
+  </condition>
+
+  <condition id="SelfInEventSingle">
+    <name>InEvent</name>
+    <type>bool</type>
+    <targetvalue>false</targetvalue>
+  </condition>
+
+	<condition id="Wanderer">
+		<name>IsForeground</name>
+		<type>bool</type>
+		<targetvalue>false</targetvalue>
+		<condition>SelfInEventSingle</condition> 
+    <condition>SelfTestNPC</condition>
+	</condition>
+
+  <!-- Multi agent nested conditions -->
+
+  <!-- ideally, the evaluating agent will look for: someone that is foreground and not in event, someone not foreground and not in event, and finally, self not in event -->
+  
+  <condition id="SelfNotInEvent">
+    <name>InEvent</name>
+    <type>bool</type>
+    <targetvalue>false</targetvalue>
+  </condition>
+  
+  <condition id="ForegroundAndNotInEvent">
+    <name>IsForeground</name>
+    <type>bool</type>
+    <targetvalue>true</targetvalue>
+    <targeted>true</targeted>
+    <mandatory>false</mandatory>
+    <condition>NotInEvent</condition>
+  </condition>
+
+  <condition id="FriendlyAndNotInEvent">
+    <name>Friendliness</name>
+    <type>float</type>
+    <trait>Friendliness</trait>
+    <targetvalue>0.1</targetvalue>
+    <targeted>true</targeted>
+    <condition>NotInEvent</condition>
+  </condition>
+
+  <condition id="NotForegroundNotInEvent">
+    <name>IsForeground</name>
+    <type>bool</type>
+    <targetvalue>false</targetvalue>
+    <targeted>true</targeted>
+    <mandatory>false</mandatory>
+    <condition>NotInEvent</condition>
+  </condition>
+	
+</conditions>
+
+  <modifiers>
+    
+  </modifiers>
+  
+  <events>
+    
+    <!--
+	  <event>
+      <name>Wander</name>
+      <behavior>Wander</behavior>
+      <priority>Individual</priority>
+      <type>Neutral</type>
+      <condition>Wanderer</condition>
+      <random>50</random>
+    </event>
+   -->
+    
+    <event>
+      <name>Converse</name>
+      <behavior>MultiConverse</behavior>
+      <priority>Social</priority>
+      <type>Targeted</type>
+      <participants>3</participants>
+      <condition>SelfNotInEvent</condition>
+      <condition>ForegroundAndNotInEvent</condition>
+      <condition>NotForegroundNotInEvent</condition>
+    </event>
+    
+    
+  </events>
+  
+</behaviors>

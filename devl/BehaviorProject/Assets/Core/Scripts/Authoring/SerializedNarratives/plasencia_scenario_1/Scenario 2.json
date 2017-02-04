@@ -1,0 +1,127 @@
+{
+	"Arc": {
+		"Beats": [{
+			"Events": [{
+				"SignatureName": "GoTo",
+				"Participants": [1368, 11],
+				"ID": 40
+			}, {
+				"SignatureName": "GoTo",
+				"Participants": [1369, 13],
+				"ID": 41
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Discredit",
+				"Participants": [1368, 1369],
+				"ID": 42
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Deride",
+				"Participants": [1369, 1368],
+				"ID": 43
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Scorn",
+				"Participants": [1368, 1369],
+				"ID": 52
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Call Worthless",
+				"Participants": [1369, 1368],
+				"ID": 44
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Discredit",
+				"Participants": [1368, 1368],
+				"ID": 45
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Estrange and Leave",
+				"Participants": [1369, 1368, 12],
+				"ID": 46
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Suicide",
+				"Participants": [1368, 1369],
+				"ID": 47
+			}]
+		}]
+	},
+	"Dependencies": [{
+		"ID": 40,
+		"Dependencies": []
+	}, {
+		"ID": 41,
+		"Dependencies": []
+	}, {
+		"ID": 42,
+		"Dependencies": []
+	}, {
+		"ID": 43,
+		"Dependencies": []
+	}, {
+		"ID": 44,
+		"Dependencies": []
+	}, {
+		"ID": 45,
+		"Dependencies": []
+	}, {
+		"ID": 46,
+		"Dependencies": []
+	}, {
+		"ID": 47,
+		"Dependencies": []
+	}],
+	"Crowds": [],
+	"Waypoints": [],
+	"CameraArguments": [{
+		"ID": 11,
+		"Arguments": []
+	}, {
+		"ID": 12,
+		"Arguments": []
+	}, {
+		"ID": 13,
+		"Arguments": []
+	}, {
+		"ID": 14,
+		"Arguments": []
+	}, {
+		"ID": 15,
+		"Arguments": []
+	}, {
+		"ID": 16,
+		"Arguments": []
+	}, {
+		"ID": 17,
+		"Arguments": []
+	}, {
+		"ID": 30,
+		"Arguments": []
+	}, {
+		"ID": 31,
+		"Arguments": []
+	}, {
+		"ID": 32,
+		"Arguments": []
+	}, {
+		"ID": 33,
+		"Arguments": []
+	}, {
+		"ID": 34,
+		"Arguments": []
+	}, {
+		"ID": 35,
+		"Arguments": []
+	}, {
+		"ID": 36,
+		"Arguments": []
+	}]
+}

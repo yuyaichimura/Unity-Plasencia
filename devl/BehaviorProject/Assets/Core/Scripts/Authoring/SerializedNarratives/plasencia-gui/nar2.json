@@ -1,0 +1,941 @@
+{
+	"Arc": {
+		"Beats": [{
+			"Events": [{
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					107
+				],
+				"ID": 121
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					100
+				],
+				"ID": 140
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					101
+				],
+				"ID": 141
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					102
+				],
+				"ID": 142
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					103
+				],
+				"ID": 143
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					104
+				],
+				"ID": 144
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					105
+				],
+				"ID": 145
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					106
+				],
+				"ID": 146
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					108
+				],
+				"ID": 147
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					109
+				],
+				"ID": 93
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50010
+				],
+				"ID": 148
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					80017
+				],
+				"ID": 149
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50011
+				],
+				"ID": 150
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					80018
+				],
+				"ID": 151
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50012
+				],
+				"ID": 152
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					80019
+				],
+				"ID": 153
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50013
+				],
+				"ID": 154
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					80020
+				],
+				"ID": 155
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50014
+				],
+				"ID": 156
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					80021
+				],
+				"ID": 157
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50015
+				],
+				"ID": 158
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					80022
+				],
+				"ID": 159
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Bow to",
+				"Participants": [
+					107,
+					100
+				],
+				"ID": 92
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30001
+				],
+				"ID": 124
+			}, {
+				"SignatureName": "Slower Camera Move 2",
+				"Participants": [
+					80030,
+					50016,
+					50017
+				],
+				"ID": 160
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meet and Greet 9",
+				"Participants": [
+					504,
+					108,
+					106,
+					109,
+					105,
+					104,
+					103,
+					102,
+					40111,
+					40112
+				],
+				"ID": 91
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30002
+				],
+				"ID": 95
+			}, {
+				"SignatureName": "Slowest Camera Move 2",
+				"Participants": [
+					80030,
+					50018,
+					50019
+				],
+				"ID": 161
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 8",
+				"Participants": [
+					502,
+					106,
+					109,
+					105,
+					104,
+					103,
+					102,
+					40111,
+					40112
+				],
+				"ID": 96
+			}, {
+				"SignatureName": "Bow to",
+				"Participants": [
+					108,
+					100
+				],
+				"ID": 97
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30003
+				],
+				"ID": 125
+			}, {
+				"SignatureName": "Slowest Camera Move 2",
+				"Participants": [
+					80030,
+					50020,
+					50021
+				],
+				"ID": 162
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 10",
+				"Participants": [
+					508,
+					108,
+					100,
+					101,
+					109,
+					105,
+					104,
+					103,
+					102,
+					40111,
+					40112
+				],
+				"ID": 98
+			}, {
+				"SignatureName": "Inspect House",
+				"Participants": [
+					22222,
+					107,
+					106,
+					200
+				],
+				"ID": 99
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30004
+				],
+				"ID": 126
+			}, {
+				"SignatureName": "Slowest Camera Move 2",
+				"Participants": [
+					80030,
+					50022,
+					50023
+				],
+				"ID": 163
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 9",
+				"Participants": [
+					509,
+					108,
+					100,
+					101,
+					106,
+					105,
+					104,
+					103,
+					102,
+					40112
+				],
+				"ID": 100
+			}, {
+				"SignatureName": "Inspect House 2",
+				"Participants": [
+					22223,
+					107,
+					109,
+					40111,
+					201
+				],
+				"ID": 101
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30005
+				],
+				"ID": 127
+			}, {
+				"SignatureName": "Slower Camera Move 2",
+				"Participants": [
+					80030,
+					50024,
+					50025
+				],
+				"ID": 164
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 10",
+				"Participants": [
+					510,
+					108,
+					100,
+					101,
+					106,
+					109,
+					104,
+					103,
+					102,
+					40111,
+					40112
+				],
+				"ID": 102
+			}, {
+				"SignatureName": "Inspect House",
+				"Participants": [
+					22224,
+					107,
+					105,
+					202
+				],
+				"ID": 103
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30006
+				],
+				"ID": 128
+			}, {
+				"SignatureName": "Slower Camera Move 2",
+				"Participants": [
+					80030,
+					50026,
+					50027
+				],
+				"ID": 165
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Greet",
+				"Participants": [
+					40113,
+					40114,
+					99998,
+					99996
+				],
+				"ID": 94
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30007
+				],
+				"ID": 133
+			}, {
+				"SignatureName": "Slower Camera Move 2",
+				"Participants": [
+					80030,
+					50028,
+					50029
+				],
+				"ID": 166
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					40113
+				],
+				"ID": 130
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					40114
+				],
+				"ID": 131
+			}, {
+				"SignatureName": "Group Meeting 10",
+				"Participants": [
+					511,
+					108,
+					100,
+					101,
+					106,
+					109,
+					105,
+					103,
+					102,
+					40111,
+					40112
+				],
+				"ID": 104
+			}, {
+				"SignatureName": "Inspect House",
+				"Participants": [
+					22225,
+					107,
+					104,
+					203
+				],
+				"ID": 105
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30008
+				],
+				"ID": 134
+			}, {
+				"SignatureName": "Slow Camera Move 4",
+				"Participants": [
+					80030,
+					50030,
+					50031,
+					50032,
+					50034
+				],
+				"ID": 167
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 10",
+				"Participants": [
+					512,
+					108,
+					100,
+					101,
+					106,
+					109,
+					105,
+					104,
+					102,
+					40111,
+					40112
+				],
+				"ID": 106
+			},{
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30009
+				],
+				"ID": 135
+			}, {
+				"SignatureName": "Slower Camera Move 2",
+				"Participants": [
+					80030,
+					50035,
+					50036
+				],
+				"ID": 168
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 9",
+				"Participants": [
+					513,
+					108,
+					100,
+					101,
+					106,
+					109,
+					105,
+					104,
+					103,
+					40111
+				],
+				"ID": 108
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30010
+				],
+				"ID": 136
+			}, {
+				"SignatureName": "Slower Camera Move 2",
+				"Participants": [
+					80030,
+					50037,
+					50038
+				],
+				"ID": 169
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meet and Greet 12",
+				"Participants": [
+					515,
+					108,
+					100,
+					101,
+					102,
+					103,
+					104,
+					105,
+					106,
+					109,
+					107,
+					40111,
+					40112
+				],
+				"ID": 110
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30011
+				],
+				"ID": 137
+			}, {
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50039
+				],
+				"ID": 170
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					107
+				],
+				"ID": 111
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					100
+				],
+				"ID": 112
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					101
+				],
+				"ID": 113
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					102
+				],
+				"ID": 114
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					103
+				],
+				"ID": 115
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					104
+				],
+				"ID": 116
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					105
+				],
+				"ID": 117
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					106
+				],
+				"ID": 118
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					108
+				],
+				"ID": 119
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					109
+				],
+				"ID": 120
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [
+					108
+				],
+				"ID": 138
+			} , {
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50040
+				],
+				"ID": 171
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					80023
+				],
+				"ID": 172
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Palace Activate",
+				"Participants": [
+					110
+				],
+				"ID": 122
+			}, {
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50041
+				],
+				"ID": 173
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					80024
+				],
+				"ID": 174
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "CC Go Near",
+				"Participants": [
+					110,
+					99999
+				],
+				"ID": 123
+			}, {
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30013
+				],
+				"ID": 139
+			}, {
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50042
+				],
+				"ID": 175
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [
+					30014
+				],
+				"ID": 129
+			}, {
+				"SignatureName": "Slow Camera Move",
+				"Participants": [
+					80030,
+					50043
+				],
+				"ID": 176
+			}]
+		}]
+	},
+	"Dependencies": [{
+			"ID": 91,
+			"Dependencies": []
+		}, {
+			"ID": 92,
+			"Dependencies": []
+		}, {
+			"ID": 93,
+			"Dependencies": []
+		}, {
+			"ID": 94,
+			"Dependencies": []
+		}, {
+			"ID": 95,
+			"Dependencies": []
+		}, {
+			"ID": 96,
+			"Dependencies": []
+		}, {
+			"ID": 97,
+			"Dependencies": []
+		}, {
+			"ID": 98,
+			"Dependencies": []
+		}, {
+			"ID": 99,
+			"Dependencies": []
+		}, {
+			"ID": 100,
+			"Dependencies": []
+		}, {
+			"ID": 101,
+			"Dependencies": []
+		}, {
+			"ID": 102,
+			"Dependencies": []
+		}, {
+			"ID": 103,
+			"Dependencies": []
+		}, {
+			"ID": 104,
+			"Dependencies": []
+		}, {
+			"ID": 105,
+			"Dependencies": []
+		}, {
+			"ID": 106,
+			"Dependencies": []
+		},{
+			"ID": 108,
+			"Dependencies": []
+		},  {
+			"ID": 110,
+			"Dependencies": []
+		}, {
+			"ID": 111,
+			"Dependencies": []
+		}, {
+			"ID": 112,
+			"Dependencies": []
+		}, {
+			"ID": 113,
+			"Dependencies": []
+		}, {
+			"ID": 114,
+			"Dependencies": []
+		}, {
+			"ID": 115,
+			"Dependencies": []
+		}, {
+			"ID": 116,
+			"Dependencies": []
+		}, {
+			"ID": 117,
+			"Dependencies": []
+		}, {
+			"ID": 118,
+			"Dependencies": []
+		}, {
+			"ID": 119,
+			"Dependencies": []
+		}, {
+			"ID": 120,
+			"Dependencies": []
+		}, {
+			"ID": 121,
+			"Dependencies": []
+		}, {
+			"ID": 122,
+			"Dependencies": []
+		}, {
+			"ID": 123,
+			"Dependencies": []
+		}, {
+			"ID": 124,
+			"Dependencies": []
+		}, {
+			"ID": 125,
+			"Dependencies": []
+		}, {
+			"ID": 126,
+			"Dependencies": []
+		}, {
+			"ID": 127,
+			"Dependencies": []
+		}, {
+			"ID": 128,
+			"Dependencies": []
+		}, {
+			"ID": 129,
+			"Dependencies": []
+		}, {
+			"ID": 130,
+			"Dependencies": []
+		}, {
+			"ID": 131,
+			"Dependencies": []
+		}, {
+			"ID": 133,
+			"Dependencies": []
+		}, {
+			"ID": 134,
+			"Dependencies": []
+		}, {
+			"ID": 135,
+			"Dependencies": []
+		}, {
+			"ID": 136,
+			"Dependencies": []
+		}, {
+			"ID": 137,
+			"Dependencies": []
+		}, {
+			"ID": 138,
+			"Dependencies": []
+		}, {
+			"ID": 139,
+			"Dependencies": []
+		}, {
+			"ID": 140,
+			"Dependencies": []
+		}, {
+			"ID": 141,
+			"Dependencies": []
+		}, {
+			"ID": 142,
+			"Dependencies": []
+		}, {
+			"ID": 143,
+			"Dependencies": []
+		}, {
+			"ID": 144,
+			"Dependencies": []
+		}, {
+			"ID": 145,
+			"Dependencies": []
+		}, {
+			"ID": 146,
+			"Dependencies": []
+		}, {
+			"ID": 147,
+			"Dependencies": []
+		}, {
+			"ID": 148,
+			"Dependencies": []
+		}, {
+			"ID": 149,
+			"Dependencies": []
+		}, {
+			"ID": 150,
+			"Dependencies": []
+		}, {
+			"ID": 151,
+			"Dependencies": []
+		}, {
+			"ID": 152,
+			"Dependencies": []
+		}, {
+			"ID": 153,
+			"Dependencies": []
+		}, {
+			"ID": 154,
+			"Dependencies": []
+		}, {
+			"ID": 155,
+			"Dependencies": []
+		}, {
+			"ID": 156,
+			"Dependencies": []
+		}, {
+			"ID": 157,
+			"Dependencies": []
+		}, {
+			"ID": 158,
+			"Dependencies": []
+		}, {
+			"ID": 159,
+			"Dependencies": []
+		}, {
+			"ID": 160,
+			"Dependencies": []
+		}, {
+			"ID": 161,
+			"Dependencies": []
+		}, {
+			"ID": 162,
+			"Dependencies": []
+		}, {
+			"ID": 163,
+			"Dependencies": []
+		}, {
+			"ID": 164,
+			"Dependencies": []
+		}, {
+			"ID": 165,
+			"Dependencies": []
+		}, {
+			"ID": 166,
+			"Dependencies": []
+		}, {
+			"ID": 167,
+			"Dependencies": []
+		}, {
+			"ID": 168,
+			"Dependencies": []
+		}, {
+			"ID": 169,
+			"Dependencies": []
+		}, {
+			"ID": 170,
+			"Dependencies": []
+		}, {
+			"ID": 171,
+			"Dependencies": []
+		}, {
+			"ID": 172,
+			"Dependencies": []
+		}, {
+			"ID": 173,
+			"Dependencies": []
+		}, {
+			"ID": 174,
+			"Dependencies": []
+		}, {
+			"ID": 175,
+			"Dependencies": []
+		}, {
+			"ID": 176,
+			"Dependencies": []
+		}
+
+	],
+	"Crowds": [],
+	"Waypoints": [],
+	"CameraArguments": []
+}

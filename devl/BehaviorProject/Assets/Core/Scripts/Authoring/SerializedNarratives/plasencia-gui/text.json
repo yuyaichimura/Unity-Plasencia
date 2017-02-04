@@ -1,0 +1,207 @@
+{
+	"Arc": {
+		"Beats": [{
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80017],
+				"ID": 33
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80018],
+				"ID": 34
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80019],
+				"ID": 35
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80020],
+				"ID": 36
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80021],
+				"ID": 37
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80022],
+				"ID": 38
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80001],
+				"ID": 39
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80002],
+				"ID": 40
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80003],
+				"ID": 41
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80004],
+				"ID": 42
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80005],
+				"ID": 43
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80006],
+				"ID": 44
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80007],
+				"ID": 45
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80008],
+				"ID": 46
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80009],
+				"ID": 47
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80010],
+				"ID": 48
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80011],
+				"ID": 49
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80012],
+				"ID": 50
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80013],
+				"ID": 51
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80014],
+				"ID": 52
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80015],
+				"ID": 53
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80016],
+				"ID": 54
+			}]
+		}]
+	},
+	"Dependencies": [{
+		"ID": 33,
+		"Dependencies": []
+	}, {
+		"ID": 34,
+		"Dependencies": []
+	}, {
+		"ID": 35,
+		"Dependencies": []
+	}, {
+		"ID": 36,
+		"Dependencies": []
+	}, {
+		"ID": 37,
+		"Dependencies": []
+	}, {
+		"ID": 38,
+		"Dependencies": []
+	}, {
+		"ID": 39,
+		"Dependencies": []
+	}, {
+		"ID": 40,
+		"Dependencies": []
+	}, {
+		"ID": 41,
+		"Dependencies": []
+	}, {
+		"ID": 42,
+		"Dependencies": []
+	}, {
+		"ID": 43,
+		"Dependencies": []
+	}, {
+		"ID": 44,
+		"Dependencies": []
+	}, {
+		"ID": 45,
+		"Dependencies": []
+	}, {
+		"ID": 46,
+		"Dependencies": []
+	}, {
+		"ID": 47,
+		"Dependencies": []
+	}, {
+		"ID": 48,
+		"Dependencies": []
+	}, {
+		"ID": 49,
+		"Dependencies": []
+	}, {
+		"ID": 50,
+		"Dependencies": []
+	}, {
+		"ID": 51,
+		"Dependencies": []
+	}, {
+		"ID": 52,
+		"Dependencies": []
+	}, {
+		"ID": 53,
+		"Dependencies": []
+	}, {
+		"ID": 54,
+		"Dependencies": []
+	}],
+	"Crowds": [],
+	"Waypoints": [],
+	"CameraArguments": []
+}
