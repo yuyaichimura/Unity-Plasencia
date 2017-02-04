@@ -1,0 +1,161 @@
+{
+	"Arc": {
+		"Beats": [{
+			"Events": [{
+				"SignatureName": "Bow to",
+				"Participants": [107, 100],
+				"ID": 79
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meet and Greet 9",
+				"Participants": [504, 108, 106, 109, 105, 104, 103, 102, 40111, 40112],
+				"ID": 80
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 8",
+				"Participants": [502, 106, 109, 105, 104, 103, 102, 40111, 40112],
+				"ID": 81
+			}, {
+				"SignatureName": "Bow to",
+				"Participants": [108, 100],
+				"ID": 82
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 10",
+				"Participants": [508, 108, 100, 101, 109, 105, 104, 103, 102, 40111, 40112],
+				"ID": 83
+			}, {
+				"SignatureName": "Inspect House",
+				"Participants": [22222, 107, 106, 200],
+				"ID": 84
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 9",
+				"Participants": [509, 108, 100, 101, 106, 105, 104, 103, 102, 40112],
+				"ID": 85
+			}, {
+				"SignatureName": "Inspect House 2",
+				"Participants": [22223, 107, 109, 40111, 201],
+				"ID": 86
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meeting 10",
+				"Participants": [510, 108, 100, 101, 106, 109, 104, 103, 102, 40111, 40112],
+				"ID": 87
+			}, {
+				"SignatureName": "Inspect House",
+				"Participants": [22224, 107, 105, 202],
+				"ID": 88
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Greet",
+				"Participants": [40113, 40114, 99998, 99996],
+				"ID": 89
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "GoBack To Origin",
+				"Participants": [40113],
+				"ID": 90
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [40114],
+				"ID": 91
+			}, {
+				"SignatureName": "Group Meeting 10",
+				"Participants": [511, 108, 100, 101, 106, 109, 105, 103, 102, 40111, 40112],
+				"ID": 92
+			}, {
+				"SignatureName": "Inspect House",
+				"Participants": [22225, 107, 104, 203],
+				"ID": 93
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meet and Greet 12 Race",
+				"Participants": [515, 108, 100, 101, 102, 103, 104, 105, 106, 109, 107, 40111, 40112],
+				"ID": 95
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Group Meet and Greet 12",
+				"Participants": [515, 108, 100, 101, 102, 103, 104, 105, 106, 109, 107, 40111, 40112],
+				"ID": 96
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "GoBack To Origin",
+				"Participants": [107],
+				"ID": 97
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [100],
+				"ID": 98
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [101],
+				"ID": 99
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [102],
+				"ID": 100
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [103],
+				"ID": 101
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [104],
+				"ID": 102
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [105],
+				"ID": 103
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [106],
+				"ID": 104
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [109],
+				"ID": 105
+			}, {
+				"SignatureName": "GoBack To Origin",
+				"Participants": [108],
+				"ID": 106
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "Object Enable",
+				"Participants": [70333],
+				"ID": 107
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "CC Go Near",
+				"Participants": [110, 99999],
+				"ID": 108
+			}]
+		}, {
+			"Events": [{
+				"SignatureName": "DisplayText",
+				"Participants": [80029],
+				"ID": 117
+			}, {
+				"SignatureName": "CameraFade Black",
+				"Participants": [80030],
+				"ID": 118
+			}]
+		}]
+	},
+	"Dependencies": [],
+	"Crowds": [],
+	"Waypoints": [],
+	"CameraArguments": []
+}
