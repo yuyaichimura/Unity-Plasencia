@@ -1,0 +1,40 @@
+<b><size=15>Virtual Plasencia Version 1.6 -- A Revealing Cooperation and Conflict Project Endeavor</size></b>
+
+Our project is an international collaboration (The Revealing Cooperation and Conflict Project) involving nine universities in Spain, Switzerland, and the United States of America. The project is an independent scholarly endeavor organized within MappaMundi, a digital humanities initiative of the University of Texas at Austin. MappaMundi graciously provided seed-funding for the creation of Virtual Plasencia, as well as ongoing intellectual and technical counsel. MappaMundi is directed by Dr. Geraldine Heng (University of Texas) and Dr. Ece G. Turnator (University of Texas).
+
+<nextpage> <b>Core Development Team of Virtual Plasencia, Version 1.6</b>
+
+<i>University of Colorado</i>
+<color=red>Dr. Roger L. Martinez-Davila</color>
+
+<i>Swiss Federal Institute of Technology/ETH-Zurich</i>
+<color=red>Dr. Victor R. Schinazi</color>
+Ms. Katja Wolff (ETH-Zurich)
+
+<i>University of Wyoming</i>
+<color=red>Dr. Paddington Hodza</color>
+Mr. Skye Swoboda-Colberg
+
+<i>University of Texas</i>
+Dr. Ece Turnator (Mappa Mundi, Department of English and General Libraries)
+
+<color=red>Zatun</color> (a graphic design company) <nextpage> <color=red>Mr. David Seidman</color>, original artistry of the Church of St. Nicholas, the Palace of the Mirabeles, and the Synagogue of Plasencia.
+
+<color=red>Dr. Colin McAllister</color>, performance of Spanish music ("Julia Florida", "Canarios", "Francisco Tarrega - Lagrima", "Alegrias", and "Alborozo")
+
+<nextpage> <b>Peer-Review and Beta-Testing of Virtual Plasencia
+(and future hosting of VP at the University of Texas):</b>
+
+<i>University of Texas</i>
+Mr. Aaron Choate (General Libraries)
+Ms. Jade Diaz (General Libraries)
+Mr. Ladd Hanson (General Libraries)
+Ms. Jennifer Hecker (General Libraries)
+Mr. Matthew Villalobos (General Libraries)
+Mr. Ethan Persoff (General Libraries) 
+
+<nextpage> <b>Textures and Images used for this project:</b>
+
+<i><size=13>Iconset: Keyboard Keys Icons by Chromatix</size></i>
+<size=11>License: CC Attribution - Noncommercial - No Derivative 4.0</size>
+<size=11>www.iconarchive.com/show/keyboard-keys -icons-by-chromatix.1.html</size>

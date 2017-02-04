@@ -1,0 +1,1 @@
+Press 'esc' to open the main menu and pause the game.

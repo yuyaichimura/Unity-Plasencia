@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 47fa2df99576d5847b9906b2b7a0ba22
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Additional buildings_01_004
+    100002: Additional buildings_01_005
+    100004: Additional buildings_01_006
+    100006: Additional buildings_01_007
+    100008: Additional buildings_01_008
+    100010: Additional buildings_01_009
+    100012: Additional buildings_01_01
+    100014: Additional buildings_01_010
+    100016: Additional buildings_01_011
+    100018: Additional buildings_01_012
+    100020: Additional buildings_01_013
+    100022: Additional buildings_01_014
+    100024: Additional buildings_01_015
+    100026: Additional buildings_01_016
+    100028: Additional buildings_01_017
+    100030: Additional buildings_01_018
+    100032: Additional buildings_01_019
+    100034: Additional buildings_01_02
+    100036: Additional buildings_01_020
+    100038: Additional buildings_01_021
+    100040: Additional buildings_01_023
+    100042: Additional buildings_01_024
+    100044: Additional buildings_01_025
+    100046: Additional buildings_01_026
+    100048: Additional buildings_01_027
+    100050: Additional buildings_01_028
+    100052: Additional buildings_01_029
+    100054: Additional buildings_01_03
+    100056: Additional buildings_01_030
+    100058: Additional buildings_01_031
+    100060: Additional buildings_01_032
+    100062: Additional buildings_01_033
+    100064: Additional buildings_01_034
+    100066: Additional buildings_01_035
+    100068: Additional buildings_01_036
+    100070: Additional buildings_01_037
+    100072: Additional buildings_01_038
+    100074: Additional buildings_01_039
+    100076: Additional buildings_01_040
+    100078: Additional buildings_01_041
+    100080: Additional buildings_01_042
+    100082: Additional buildings_01_043
+    100084: Additional buildings_02_004
+    100086: Additional buildings_02_005
+    100088: Object001
+    100090: Object002
+    100092: Object003
+    100094: Object004
+    100096: Object005
+    100098: Object006
+    100100: //RootNode
+    100102: Stone_009
+    400000: Additional buildings_01_004
+    400002: Additional buildings_01_005
+    400004: Additional buildings_01_006
+    400006: Additional buildings_01_007
+    400008: Additional buildings_01_008
+    400010: Additional buildings_01_009
+    400012: Additional buildings_01_01
+    400014: Additional buildings_01_010
+    400016: Additional buildings_01_011
+    400018: Additional buildings_01_012
+    400020: Additional buildings_01_013
+    400022: Additional buildings_01_014
+    400024: Additional buildings_01_015
+    400026: Additional buildings_01_016
+    400028: Additional buildings_01_017
+    400030: Additional buildings_01_018
+    400032: Additional buildings_01_019
+    400034: Additional buildings_01_02
+    400036: Additional buildings_01_020
+    400038: Additional buildings_01_021
+    400040: Additional buildings_01_023
+    400042: Additional buildings_01_024
+    400044: Additional buildings_01_025
+    400046: Additional buildings_01_026
+    400048: Additional buildings_01_027
+    400050: Additional buildings_01_028
+    400052: Additional buildings_01_029
+    400054: Additional buildings_01_03
+    400056: Additional buildings_01_030
+    400058: Additional buildings_01_031
+    400060: Additional buildings_01_032
+    400062: Additional buildings_01_033
+    400064: Additional buildings_01_034
+    400066: Additional buildings_01_035
+    400068: Additional buildings_01_036
+    400070: Additional buildings_01_037
+    400072: Additional buildings_01_038
+    400074: Additional buildings_01_039
+    400076: Additional buildings_01_040
+    400078: Additional buildings_01_041
+    400080: Additional buildings_01_042
+    400082: Additional buildings_01_043
+    400084: Additional buildings_02_004
+    400086: Additional buildings_02_005
+    400088: Object001
+    400090: Object002
+    400092: Object003
+    400094: Object004
+    400096: Object005
+    400098: Object006
+    400100: //RootNode
+    400102: Stone_009
+    2300000: Additional buildings_01_004
+    2300002: Additional buildings_01_005
+    2300004: Additional buildings_01_006
+    2300006: Additional buildings_01_007
+    2300008: Additional buildings_01_008
+    2300010: Additional buildings_01_009
+    2300012: Additional buildings_01_01
+    2300014: Additional buildings_01_010
+    2300016: Additional buildings_01_011
+    2300018: Additional buildings_01_012
+    2300020: Additional buildings_01_013
+    2300022: Additional buildings_01_014
+    2300024: Additional buildings_01_015
+    2300026: Additional buildings_01_016
+    2300028: Additional buildings_01_017
+    2300030: Additional buildings_01_018
+    2300032: Additional buildings_01_019
+    2300034: Additional buildings_01_02
+    2300036: Additional buildings_01_020
+    2300038: Additional buildings_01_021
+    2300040: Additional buildings_01_023
+    2300042: Additional buildings_01_024
+    2300044: Additional buildings_01_025
+    2300046: Additional buildings_01_026
+    2300048: Additional buildings_01_027
+    2300050: Additional buildings_01_028
+    2300052: Additional buildings_01_029
+    2300054: Additional buildings_01_03
+    2300056: Additional buildings_01_030
+    2300058: Additional buildings_01_031
+    2300060: Additional buildings_01_032
+    2300062: Additional buildings_01_033
+    2300064: Additional buildings_01_034
+    2300066: Additional buildings_01_035
+    2300068: Additional buildings_01_036
+    2300070: Additional buildings_01_037
+    2300072: Additional buildings_01_038
+    2300074: Additional buildings_01_039
+    2300076: Additional buildings_01_040
+    2300078: Additional buildings_01_041
+    2300080: Additional buildings_01_042
+    2300082: Additional buildings_01_043
+    2300084: Additional buildings_02_004
+    2300086: Additional buildings_02_005
+    2300088: Object001
+    2300090: Object002
+    2300092: Object003
+    2300094: Object004
+    2300096: Object005
+    2300098: Object006
+    2300100: Stone_009
+    3300000: Additional buildings_01_004
+    3300002: Additional buildings_01_005
+    3300004: Additional buildings_01_006
+    3300006: Additional buildings_01_007
+    3300008: Additional buildings_01_008
+    3300010: Additional buildings_01_009
+    3300012: Additional buildings_01_01
+    3300014: Additional buildings_01_010
+    3300016: Additional buildings_01_011
+    3300018: Additional buildings_01_012
+    3300020: Additional buildings_01_013
+    3300022: Additional buildings_01_014
+    3300024: Additional buildings_01_015
+    3300026: Additional buildings_01_016
+    3300028: Additional buildings_01_017
+    3300030: Additional buildings_01_018
+    3300032: Additional buildings_01_019
+    3300034: Additional buildings_01_02
+    3300036: Additional buildings_01_020
+    3300038: Additional buildings_01_021
+    3300040: Additional buildings_01_023
+    3300042: Additional buildings_01_024
+    3300044: Additional buildings_01_025
+    3300046: Additional buildings_01_026
+    3300048: Additional buildings_01_027
+    3300050: Additional buildings_01_028
+    3300052: Additional buildings_01_029
+    3300054: Additional buildings_01_03
+    3300056: Additional buildings_01_030
+    3300058: Additional buildings_01_031
+    3300060: Additional buildings_01_032
+    3300062: Additional buildings_01_033
+    3300064: Additional buildings_01_034
+    3300066: Additional buildings_01_035
+    3300068: Additional buildings_01_036
+    3300070: Additional buildings_01_037
+    3300072: Additional buildings_01_038
+    3300074: Additional buildings_01_039
+    3300076: Additional buildings_01_040
+    3300078: Additional buildings_01_041
+    3300080: Additional buildings_01_042
+    3300082: Additional buildings_01_043
+    3300084: Additional buildings_02_004
+    3300086: Additional buildings_02_005
+    3300088: Object001
+    3300090: Object002
+    3300092: Object003
+    3300094: Object004
+    3300096: Object005
+    3300098: Object006
+    3300100: Stone_009
+    4300000: Additional buildings_01_01
+    4300002: Additional buildings_01_02
+    4300004: Additional buildings_01_03
+    4300006: Additional buildings_01_004
+    4300008: Additional buildings_01_005
+    4300010: Additional buildings_01_006
+    4300012: Additional buildings_01_007
+    4300014: Additional buildings_01_008
+    4300016: Additional buildings_01_009
+    4300018: Additional buildings_01_010
+    4300020: Additional buildings_01_011
+    4300022: Additional buildings_01_012
+    4300024: Additional buildings_01_013
+    4300026: Additional buildings_01_014
+    4300028: Additional buildings_01_015
+    4300030: Additional buildings_02_004
+    4300032: Additional buildings_02_005
+    4300034: Additional buildings_01_016
+    4300036: Additional buildings_01_017
+    4300038: Additional buildings_01_018
+    4300040: Additional buildings_01_019
+    4300042: Additional buildings_01_020
+    4300044: Additional buildings_01_021
+    4300046: Additional buildings_01_023
+    4300048: Additional buildings_01_024
+    4300050: Additional buildings_01_025
+    4300052: Additional buildings_01_026
+    4300054: Additional buildings_01_027
+    4300056: Additional buildings_01_028
+    4300058: Additional buildings_01_029
+    4300060: Additional buildings_01_030
+    4300062: Additional buildings_01_031
+    4300064: Additional buildings_01_032
+    4300066: Additional buildings_01_033
+    4300068: Additional buildings_01_034
+    4300070: Additional buildings_01_035
+    4300072: Additional buildings_01_036
+    4300074: Additional buildings_01_037
+    4300076: Additional buildings_01_038
+    4300078: Additional buildings_01_039
+    4300080: Additional buildings_01_040
+    4300082: Additional buildings_01_041
+    4300084: Additional buildings_01_042
+    4300086: Stone_009
+    4300088: Object001
+    4300090: Object002
+    4300092: Object003
+    4300094: Object004
+    4300096: Object005
+    4300098: Additional buildings_01_043
+    4300100: Object006
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 1
+  userData: 

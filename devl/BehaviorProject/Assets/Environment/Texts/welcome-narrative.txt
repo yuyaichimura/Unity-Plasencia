@@ -1,0 +1,16 @@
+Welcome to Virtual Plasencia - a geovisual re-creation of the medieval city of Plasencia, Spain. 
+
+You arrived in the year 1416. Some objects can be found throughout the city, which tell a story of that time. 
+In 1416 these are some keys and some barrels of wine.
+
+Telling the story of the city, especially during the fifteenth century (1400s a.d./c.e.) is particularly important due to the religious intermixing of Jews, Catholics, and Muslims during this age of increasing religious intolerance. 
+
+Not only does this history reveal moments of conflict and cooperation between the different religious groups, but more important it details how some Jewish and Christian communities aligned their interest at the expense of other Christians. 
+
+Similarly, the details of medieval life are exposed - including - how “physical ownership” of homes was ritually established, what the role of Jewish converts to Christian (conversos) was in the formation of the Catholic Church, how the production and sale of wine defined elements of the community, and lastly, in what manner did the medieval social class of knights (caballeros) distribute their wealth to their heirs. 
+
+These stories, derived from archival manuscripts pertaining to Plasencia, as well as many more, can be experienced in Virtual Plasencia. 
+In this manner, not only have we electronically re-generated 15th century Plasencia, but we also have tied these narratives to the physical environment. 
+In this way, the virtual visitor can stand at the steps of the Church of St. Nicholas and read about the deceased knight, Don Diego Gonzalez de Carvajal, or visit the synagogue and learn about it’s Jewish residents such as Rabbi Abraham de Loya.
+
+Our first version of this digital world models the medieval Plaza de San Nicolas, which was located in the city’s Jewish quarter (juderia). Within this zone, visitors can explore ten historical narratives from the fifteenth century, as well as view the Church of St. Nicholas (Iglesia de San Nicolas), the synagogue (reconstructed using architectural details from other contemporaneous synagogues), and the Palace of the Mirabeles (Palacio de los Mirabeles).

@@ -1,0 +1,1 @@
+Press 't' to open the timeline menu and travel through time.

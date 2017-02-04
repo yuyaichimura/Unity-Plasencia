@@ -1,0 +1,3 @@
+<b>Welcome to Virtual Plasencia - a geovisual re-creation of the medieval city of Plasencia, Spain.</b> 
+
+Our first version of this digital world models the medieval Plaza de San Nicolas, which was located in the city’s Jewish quarter (juderia). Within this zone, visitors can explore ten historical narratives from the fifteenth century, as well as view the Church of St. Nicholas (Iglesia de San Nicolas), the synagogue (reconstructed using architectural details from other contemporaneous synagogues), and the Palace of the Mirabeles (Palacio de los Mirabeles).
