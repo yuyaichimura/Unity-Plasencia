@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: a33d083f8fcde1342ba667fc5e4237d9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: chain_link_8_seg_random
+    100002: //RootNode
+    100004: chain_link_8_seg_random1
+    100006: chain_link_8_seg_random2
+    100008: chain_link_8_seg_random3
+    100010: chain_link_8_seg_random4
+    100012: chain_link_8_seg_random5
+    100014: chain_link_8_seg_random6
+    100016: chain_link_8_seg_random7
+    100018: chain_link_8_seg_random_merged
+    400000: chain_link_8_seg_random
+    400002: //RootNode
+    400004: chain_link_8_seg_random1
+    400006: chain_link_8_seg_random2
+    400008: chain_link_8_seg_random3
+    400010: chain_link_8_seg_random4
+    400012: chain_link_8_seg_random5
+    400014: chain_link_8_seg_random6
+    400016: chain_link_8_seg_random7
+    400018: chain_link_8_seg_random_merged
+    2300000: chain_link_8_seg_random
+    2300002: chain_link_8_seg_random1
+    2300004: chain_link_8_seg_random2
+    2300006: chain_link_8_seg_random3
+    2300008: chain_link_8_seg_random4
+    2300010: chain_link_8_seg_random5
+    2300012: chain_link_8_seg_random6
+    2300014: chain_link_8_seg_random7
+    2300016: chain_link_8_seg_random_merged
+    3300000: chain_link_8_seg_random
+    3300002: chain_link_8_seg_random1
+    3300004: chain_link_8_seg_random2
+    3300006: chain_link_8_seg_random3
+    3300008: chain_link_8_seg_random4
+    3300010: chain_link_8_seg_random5
+    3300012: chain_link_8_seg_random6
+    3300014: chain_link_8_seg_random7
+    3300016: chain_link_8_seg_random_merged
+    4300000: chain_link_8_seg_random
+    4300002: chain_link_8_seg_random1
+    4300004: chain_link_8_seg_random2
+    4300006: chain_link_8_seg_random3
+    4300008: chain_link_8_seg_random4
+    4300010: chain_link_8_seg_random5
+    4300012: chain_link_8_seg_random6
+    4300014: chain_link_8_seg_random7
+    4300016: chain_link_8_seg_random_merged
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 180
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 1
+  userData: 
